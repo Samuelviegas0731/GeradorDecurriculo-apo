@@ -2,23 +2,22 @@
 <html lang="pt-BR">
 
 <head>
-    
+<title>Formulário de Dados Pessoais</title>
     <meta charset="UTF-8">
     <!-- Define o conjunto de caracteres do documento como UTF-8 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Configura a viewport para permitir um design responsivo -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
     <!-- utiliza o metodo bootstrap -->
-    <title>Formulário de Dados Pessoais</title>
-    <!-- Define o título da página -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Link para o arquivo CSS externo que contém os estilos da página -->
+    
 </head>
 
 <body>
+
     <div class="container">
-        <!-- Contêiner principal para o formulário -->
-        <h1>Formulário de Dados Pessoais</h1>
+    <h1>Formulário de Dados Pessoais</h1>
         <!-- Cabeçalho do formulário -->
         <form action="process.php" method="POST" enctype="multipart/form-data" id="data-form">
             <!-- Início do formulário, que envia os dados para "process.php" usando o método POST -->

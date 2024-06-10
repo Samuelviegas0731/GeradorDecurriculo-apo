@@ -21,6 +21,7 @@ h1 {
     text-align: center;
     margin-bottom: 20px;
     color: #007bff;
+    margin-top: 100px;
 }
 
 .form-group {
@@ -41,9 +42,10 @@ input[type="file"],
 textarea {
     width: 100%;
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid #fdf9f99d;
     border-radius: 5px;
     box-sizing: border-box; /* Garante que a largura inclua o preenchimento e a borda */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 textarea {
@@ -51,14 +53,15 @@ textarea {
 }
 
 button {
-    width: 100%;
+    width: 50%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #c9cacc;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 button:hover {
@@ -68,11 +71,11 @@ button:hover {
 button[type="button"] {
     width: auto;
     margin-top: 10px;
-    background-color: #28a745;
+    background-color:#111bad;
 }
 
 button[type="button"]:hover {
-    background-color: #218838;
+    background-color: #111bad;
 }
 
 .no-print {
